@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:white;
+  
+}
+
+/* carousel 
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 1;
+}
+
+.carousel-caption p {
+  color:black;
+}
+
+.carousel img {
+  height: 700px;
+  width: 100px;
+  opacity:0.75;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h3 {
+    font-size: 2.5vw;
+  }
+}
+.heading {
+       display:flex;
+       justify-content: center;
+       color:"#24a0ed";
+       margin-top: 5px;
+}
+
+*/
+
+.productImg{
+  height: 50px;
+  width:50px;
+}
+
+.productContainer{
+  display: flex;
+}
+.viewProd{
+  background-color: white;
+  padding: 20px;
+  margin-top: 1%;
+}
+.adminAuth{
+  margin-top: 4%;
+  padding: 50px;
+  border: 5px solid black;
+}
+
+.adminScreen{
+  margin-top: 4%;
+  padding:50px;
+  border: 5px solid black;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#showcase{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/images/sample3.jpg') no-repeat 0 -400px;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+.showcaseElement{
+  background-color:white;
+  padding:50px;
+  border-radius: 80px;
+}
+
+.showcaseElement h1{
+  font-size:30px;
+  line-height:1.2;
+}
+
+.showcaseElement p{
+  font-size:20px;
+}
+
+.button{
+  font-size:18px;
+  text-decoration:none;
+  color:#926239;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+.button:hover{
+  text-decoration: none;
+  background:#926239;
+  color:#fff;
+}
+#contactContainer{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/images/sample4.jpg') no-repeat 0 -400px;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+.contactElement{
+  background-color:white;
+  padding:50px;
+  border-radius: 80px;
+}
+.contactElement i{
+  color:#926239
+}
