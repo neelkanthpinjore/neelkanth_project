@@ -4,7 +4,7 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import {Form,Button} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { updateUserProfile } from '../actions/userActions'
+import { updateUserProfile,logout } from '../actions/userActions'
 
 const ChangePassword=({match,history})=>{
   const [email, setEmail] = useState('')
@@ -35,6 +35,7 @@ const ChangePassword=({match,history})=>{
       setMessage('Passwords do not match')
     } else {
       dispatch(updateUserProfile({ id: userInfo._id, email, password }))
+      dispatch(logout())
     }
   }
 
